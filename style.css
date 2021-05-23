@@ -2,11 +2,57 @@
     margin: 0;
     padding: 0;
 }
-.main {
-    border: 4px solid black;
-    padding: 1% 2%;
-    width: 50%;
+h2 {
+    background-color: black;
+    color: white;
+    width: 75%;
     margin: auto;
+    padding: 1% 0 1% 1%;
+}
+h1 {
+    background-color: white;
+    color: black;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding: 1% 0;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+.user {
+    width: 15%;
+    border: 4px solid black;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user .username {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+.user img {
+    width: 50%;
+    margin: 1em 0 1em 0;
+}
+.feed {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.feedObj {
+    border: 4px solid black;
+    padding: 1% 0 1% 1%;
+    width: 100%;
+    margin: 0 auto 1% auto;
+}
+.feedObj:last-child {
+    margin-bottom: 5em;
 }
 .head, .likesArea {
     display: flex;
