@@ -42,8 +42,8 @@ h1 {
 .feed {
     width: 80%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 .feedObj {
     border: 4px solid black;
